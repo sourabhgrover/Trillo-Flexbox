@@ -1,1 +1,35 @@
-/* No CSS *//*# sourceMappingURL=layout.css.map */
+.container {
+  background-color: var(--color-grey-light-1);
+  margin: 8rem auto;
+  max-width: 120rem;
+  min-height: 50rem;
+  -webkit-box-shadow: var(--shadow-dark);
+          box-shadow: var(--shadow-dark);
+}
+
+.header {
+  background-color: #fff;
+  height: 7rem;
+  border-bottom: var(--color-grey-light-2);
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sidebar {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 18rem;
+          flex: 0 0 18rem;
+  background-color: var(--color-grey-dark-1);
+}
+
+.hotel-view {
+  background-color: orangered;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+/*# sourceMappingURL=layout.css.map */
